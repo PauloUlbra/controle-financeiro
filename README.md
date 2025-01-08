@@ -9,3 +9,8 @@
 
 
 # controle-financeiro
+Projeto pessoal de controle financeiro.
+
+Stacks: 
+Backend: Laravel
+Frontend: Blade
