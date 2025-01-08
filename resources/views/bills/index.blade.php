@@ -1,3 +1,5 @@
+@extends('layouts.base')
+
 @foreach($bills as $bill)
     <div>
         <h3>{{ $bill->description }}</h3>
