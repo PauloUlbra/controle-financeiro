@@ -14,13 +14,26 @@
     @endif
 </head>
 <body class="bg-slate-100">
-    <nav class="relative flex w-full flex-wrap items-center justify-between bg-zinc-50 py-2 shadow-dark-mild dark:bg-neutral-700 lg:py-4">
-        <div class="fe w-full flex-wrap items-center justify-between px-3">
-            <a href="#" class="mx-2 my-1 flex items-center lg:mb-0 lg:mt-0">
-                <img src="./layouts" alt="SaveMoney Logo" loading="lazy" style="height:20px">
-            </a>
-        </div>
-    </nav>
+    <header class="bg-emerald-400 top-0 w-full shadow-md">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="#" class="text-2xl font-bold text-green-100">
+                    <img 
+                    src="" 
+                    alt="SaveMoney logo"
+                    loading="lazy"
+                    style="height: 20px;">
+                    SaveMoney!
+                </a>
+                <div class="flex space-x-4">
+                    <a href="#" class="text-gray-800 hover:text-gray-600">Home</a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600">About</a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600">Services</a>
+                    <a href="#" class="text-gray-800 hover:text-gray-600">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="container">
         @yield('content')
     </div>
